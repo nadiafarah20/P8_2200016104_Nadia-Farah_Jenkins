@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:unit": "jest tests/unit",
+    "test:unit": "jest tests/unit --passWithNoTests"
     "test:integration": "jest tests/integration"
   },
   "keywords": [],

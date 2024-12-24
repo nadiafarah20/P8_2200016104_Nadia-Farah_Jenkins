@@ -1,24 +1,19 @@
 {
-  "name": "jenkins-pipeline",
+  "name": "p8_22000116104",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --forceExit",
-    "test:unit": "npx mocha ./unit.test.mjs",
-    "test:integration": "npx mocha ./integration.test.mjs",
-    "build": "webpack --config webpack.config.js"
+    "test": "jest"
   },
   "keywords": [],
-  "author": "fadhil",
+  "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "express": "^4.21.2",
+  "devDependencies": {
     "jest": "^29.7.0"
   },
-  "devDependencies": {
-    "chai": "^5.1.2",
-    "mocha": "^11.0.1",
+  "dependencies": {
+    "express": "^4.21.2",
     "supertest": "^7.0.0"
   }
 }

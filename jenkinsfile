@@ -8,8 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/nadiafarah20/P8_2200016104_Nadia-Farah_Jenkins.git'
-                credentialsId: 'github-credentials'
+                git branch: 'master', url: 'https://github.com/nadiafarah20/P8_2200016104_Nadia-Farah_Jenkins.git'
             }
         }
 

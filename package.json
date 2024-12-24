@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test:unit": "jest"
+    "test:integration": "jest tests/integration"
   },
   "keywords": [],
   "author": "",

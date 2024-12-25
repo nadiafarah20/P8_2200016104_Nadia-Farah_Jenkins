@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "jest",                       
+    "test": "jest",                        
     "test:unit": "jest app.test.js",      
-    "test:integration": "jest tests/integration" 
+    "test:integration": "jest tests/integration",
+    "build": "webpack --mode production"  
   },
   "keywords": [],
   "author": "",

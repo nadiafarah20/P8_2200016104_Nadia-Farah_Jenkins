@@ -1,16 +1,16 @@
 {
-  "name": "p8_2200016104",
+  "name": "prak-8_2200016104",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "jest",
-    "test:unit": "jest tests/unit --passWithNoTests",
-    "test:integration": "jest tests/integration"
+    "test": "jest",                       
+    "test:unit": "jest app.test.js",      
+    "test:integration": "jest tests/integration" 
   },
   "keywords": [],
-  "author": "nadia",
+  "author": "",
   "license": "ISC",
+  "description": "",
   "devDependencies": {
     "jest": "^29.7.0"
   },

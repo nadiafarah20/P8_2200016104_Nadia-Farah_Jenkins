@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('./app');
+const app = require('../../app'); // pastikan path sesuai dengan file app.js Anda
 
 describe('GET /', () => {
     it('responds with Hello, World!', async () => {

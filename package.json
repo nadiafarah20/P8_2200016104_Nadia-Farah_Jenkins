@@ -1,15 +1,15 @@
 {
-  "name": "p8_22000116104",
+  "name": "p8_2200016104",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "jest",
-    "test:unit": "jest tests/unit --passWithNoTests"
+    "test:unit": "jest tests/unit --passWithNoTests",
     "test:integration": "jest tests/integration"
   },
   "keywords": [],
-  "author": "",
+  "author": "nadia",
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.7.0"
